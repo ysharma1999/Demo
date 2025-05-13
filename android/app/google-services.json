@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "90310405716",
+    "firebase_url": "https://india-build-mart-2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "india-build-mart-2",
+    "storage_bucket": "india-build-mart-2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90310405716:android:5d398eaae86cc86b20c7c1",
+        "android_client_info": {
+          "package_name": "com.ibm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpQSefArB1b6E4jHN4jRLCFV_R5HaeMLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90310405716:android:f6d8706358b62f9320c7c1",
+        "android_client_info": {
+          "package_name": "com.indiabuildmart.anilsheoran"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpQSefArB1b6E4jHN4jRLCFV_R5HaeMLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

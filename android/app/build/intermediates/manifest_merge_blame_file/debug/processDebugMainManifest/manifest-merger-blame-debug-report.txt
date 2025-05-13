@@ -1,0 +1,496 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.indiabuildmart.anilsheoran"
+4    android:versionCode="5"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_auth] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-68
+12-->[:react-native-firebase_auth] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:react-native-firebase_auth] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-79
+13-->[:react-native-firebase_auth] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-76
+14
+15    <queries>
+15-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-11:15
+16        <intent>
+16-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-10:18
+17            <action android:name="android.media.action.IMAGE_CAPTURE" />
+17-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-73
+17-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:21-70
+18        </intent>
+19    </queries>
+20
+21    <uses-permission
+21-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-15:38
+22        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+22-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:9-65
+23        android:maxSdkVersion="29" />
+23-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:9-35
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25    <!--
+26    This manifest file is used only by Gradle to configure debug-only capabilities
+27    for React Native Apps.
+28    -->
+29    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+29-->[com.facebook.react:react-android:0.75.3] /Users/yogesh/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/AndroidManifest.xml:16:5-78
+29-->[com.facebook.react:react-android:0.75.3] /Users/yogesh/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/AndroidManifest.xml:16:22-75
+30    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+30-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/yogesh/.gradle/caches/8.8/transforms/b5b5fb7ef7245ed61ba850179b4ecc2b/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+30-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/yogesh/.gradle/caches/8.8/transforms/b5b5fb7ef7245ed61ba850179b4ecc2b/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+31
+32    <permission
+32-->[androidx.core:core:1.13.1] /Users/yogesh/.gradle/caches/8.8/transforms/7559fafda87d4605bfb9800346903cc5/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+33        android:name="com.indiabuildmart.anilsheoran.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.1] /Users/yogesh/.gradle/caches/8.8/transforms/7559fafda87d4605bfb9800346903cc5/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.1] /Users/yogesh/.gradle/caches/8.8/transforms/7559fafda87d4605bfb9800346903cc5/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.indiabuildmart.anilsheoran.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.1] /Users/yogesh/.gradle/caches/8.8/transforms/7559fafda87d4605bfb9800346903cc5/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.1] /Users/yogesh/.gradle/caches/8.8/transforms/7559fafda87d4605bfb9800346903cc5/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:5:5-25:19
+39        android:name="com.indiabuildmart.anilsheoran.MainApplication"
+39-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:6:7-38
+40        android:allowBackup="false"
+40-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:10:7-34
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.13.1] /Users/yogesh/.gradle/caches/8.8/transforms/7559fafda87d4605bfb9800346903cc5/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:icon="@mipmap/ic_launcher"
+44-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:8:7-41
+45        android:label="@string/app_name"
+45-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:7:7-39
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:9:7-52
+47        android:supportsRtl="true"
+47-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:12:7-33
+48        android:theme="@style/AppTheme"
+48-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:11:7-38
+49        android:usesCleartextTraffic="true" >
+49-->/Users/yogesh/Desktop/new/Demo/android/app/src/debug/AndroidManifest.xml:6:9-44
+50        <activity
+50-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:13:7-24:18
+51            android:name="com.indiabuildmart.anilsheoran.MainActivity"
+51-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:14:9-37
+52            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+52-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:16:9-118
+53            android:exported="true"
+53-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:19:9-32
+54            android:label="@string/app_name"
+54-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:15:9-41
+55            android:launchMode="singleTask"
+55-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:17:9-40
+56            android:windowSoftInputMode="adjustResize" >
+56-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:18:9-51
+57            <intent-filter>
+57-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:20:9-23:25
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:21:13-65
+58-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:21:21-62
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:22:13-73
+60-->/Users/yogesh/Desktop/new/Demo/android/app/src/main/AndroidManifest.xml:22:23-70
+61            </intent-filter>
+62        </activity>
+63
+64        <meta-data
+64-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-11:36
+65            android:name="app_data_collection_default_enabled"
+65-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-63
+66            android:value="true" />
+66-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-33
+67
+68        <service
+68-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-21:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-84
+70            android:directBootAware="true"
+70-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-43
+71            android:exported="false" >
+71-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-37
+72            <meta-data
+72-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-20:85
+73                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+73-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-120
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+76-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-firestore:25.1.0] /Users/yogesh/.gradle/caches/8.8/transforms/0c38dd30c78a32fa1e2c0189399e2e79/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:17:13-19:85
+79                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+79-->[com.google.firebase:firebase-firestore:25.1.0] /Users/yogesh/.gradle/caches/8.8/transforms/0c38dd30c78a32fa1e2c0189399e2e79/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:18:17-122
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-firestore:25.1.0] /Users/yogesh/.gradle/caches/8.8/transforms/0c38dd30c78a32fa1e2c0189399e2e79/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:19:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-firestore:25.1.0] /Users/yogesh/.gradle/caches/8.8/transforms/0c38dd30c78a32fa1e2c0189399e2e79/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:20:13-22:85
+82                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+82-->[com.google.firebase:firebase-firestore:25.1.0] /Users/yogesh/.gradle/caches/8.8/transforms/0c38dd30c78a32fa1e2c0189399e2e79/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:21:17-111
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-firestore:25.1.0] /Users/yogesh/.gradle/caches/8.8/transforms/0c38dd30c78a32fa1e2c0189399e2e79/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:22:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-storage:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/fb3233518273afb020f4a2e66a28c101/transformed/firebase-storage-21.0.0/AndroidManifest.xml:30:13-32:85
+85                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+85-->[com.google.firebase:firebase-storage:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/fb3233518273afb020f4a2e66a28c101/transformed/firebase-storage-21.0.0/AndroidManifest.xml:31:17-118
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-storage:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/fb3233518273afb020f4a2e66a28c101/transformed/firebase-storage-21.0.0/AndroidManifest.xml:32:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-storage:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/fb3233518273afb020f4a2e66a28c101/transformed/firebase-storage-21.0.0/AndroidManifest.xml:33:13-35:85
+88                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+88-->[com.google.firebase:firebase-storage:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/fb3233518273afb020f4a2e66a28c101/transformed/firebase-storage-21.0.0/AndroidManifest.xml:34:17-107
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-storage:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/fb3233518273afb020f4a2e66a28c101/transformed/firebase-storage-21.0.0/AndroidManifest.xml:35:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/a8075ada2e730055249ca43be849edca/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+91                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+91-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/a8075ada2e730055249ca43be849edca/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/a8075ada2e730055249ca43be849edca/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/a8075ada2e730055249ca43be849edca/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+94                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+94-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/a8075ada2e730055249ca43be849edca/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/a8075ada2e730055249ca43be849edca/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/920a0173af281de149ba0cc22ac9118f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+97                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+97-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/920a0173af281de149ba0cc22ac9118f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/920a0173af281de149ba0cc22ac9118f/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+100                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+100-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+102        </service>
+103
+104        <provider
+104-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:9-27:38
+105            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+105-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-88
+106            android:authorities="com.indiabuildmart.anilsheoran.reactnativefirebaseappinitprovider"
+106-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-86
+107            android:exported="false"
+107-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:13-37
+108            android:initOrder="99" />
+108-->[:react-native-firebase_app] /Users/yogesh/Desktop/IBM/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-35
+109        <provider
+109-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:9-26:20
+110            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+110-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:13-94
+111            android:authorities="com.indiabuildmart.anilsheoran.provider"
+111-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-60
+112            android:exported="false"
+112-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-37
+113            android:grantUriPermissions="true" >
+113-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-47
+114            <meta-data
+114-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-25:78
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:17-67
+116                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+116-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-75
+117        </provider>
+118
+119        <activity
+119-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:9-30:72
+120            android:name="com.yalantis.ucrop.UCropActivity"
+120-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:13-60
+121            android:theme="@style/Theme.AppCompat.Light.NoActionBar" /> <!-- Prompt Google Play services to install the backported photo picker module -->
+121-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:13-69
+122        <service
+122-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:33:9-44:19
+123            android:name="com.google.android.gms.metadata.ModuleDependencies"
+123-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:13-78
+124            android:enabled="false"
+124-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:35:13-36
+125            android:exported="false" >
+125-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:13-37
+126            <intent-filter>
+126-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:37:13-39:29
+127                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+127-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:38:17-94
+127-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:38:25-91
+128            </intent-filter>
+129
+130            <meta-data
+130-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:41:13-43:36
+131                android:name="photopicker_activity:0:required"
+131-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:42:17-63
+132                android:value="" />
+132-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:43:17-33
+133        </service>
+134
+135        <provider
+135-->[:react-native-image-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-16:20
+136            android:name="com.imagepicker.ImagePickerProvider"
+136-->[:react-native-image-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-63
+137            android:authorities="com.indiabuildmart.anilsheoran.imagepickerprovider"
+137-->[:react-native-image-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-71
+138            android:exported="false"
+138-->[:react-native-image-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-37
+139            android:grantUriPermissions="true" >
+139-->[:react-native-image-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-47
+140            <meta-data
+140-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-25:78
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:17-67
+142                android:resource="@xml/imagepicker_provider_paths" />
+142-->[:react-native-image-crop-picker] /Users/yogesh/Desktop/IBM/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-75
+143        </provider>
+144
+145        <activity
+145-->[com.facebook.react:react-android:0.75.3] /Users/yogesh/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/AndroidManifest.xml:19:9-21:40
+146            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+146-->[com.facebook.react:react-android:0.75.3] /Users/yogesh/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/AndroidManifest.xml:20:13-77
+147            android:exported="false" />
+147-->[com.facebook.react:react-android:0.75.3] /Users/yogesh/.gradle/caches/8.8/transforms/d0a91314d70cfc9eea89dfd04f6503a7/transformed/react-android-0.75.3-debug/AndroidManifest.xml:21:13-37
+148        <activity
+148-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+149            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+149-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+155                <action android:name="android.intent.action.VIEW" />
+155-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+155-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+157-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+158-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+159
+160                <data
+160-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+161                    android:host="firebase.auth"
+161-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+162                    android:path="/"
+162-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+163                    android:scheme="genericidp" />
+163-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+167            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+167-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+168            android:excludeFromRecents="true"
+168-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+169            android:exported="true"
+169-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+170            android:launchMode="singleTask"
+170-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+171-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+172            <intent-filter>
+172-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+173                <action android:name="android.intent.action.VIEW" />
+173-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+173-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+174
+175                <category android:name="android.intent.category.DEFAULT" />
+175-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+175-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+176                <category android:name="android.intent.category.BROWSABLE" />
+176-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+176-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+177
+178                <data
+178-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+179                    android:host="firebase.auth"
+179-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+180                    android:path="/"
+180-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+181                    android:scheme="recaptcha" />
+181-->[com.google.firebase:firebase-auth:23.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/b37c6d54e7c8f8141d24f20a651f860f/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+182            </intent-filter>
+183        </activity>
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+187            android:authorities="com.indiabuildmart.anilsheoran.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:21.0.0] /Users/yogesh/.gradle/caches/8.8/transforms/d055287e15941548acbc2b6254f4104d/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+191
+192        <service
+192-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+193            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+193-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+194            android:enabled="true"
+194-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+195            android:exported="false" >
+195-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+196            <meta-data
+196-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+197                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+197-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+198                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+198-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+199        </service>
+200
+201        <activity
+201-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+202            android:name="androidx.credentials.playservices.HiddenActivity"
+202-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+203            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+203-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+204            android:enabled="true"
+204-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+205            android:exported="false"
+205-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+206            android:fitsSystemWindows="true"
+206-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+207            android:theme="@style/Theme.Hidden" >
+207-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yogesh/.gradle/caches/8.8/transforms/6d2a21c3197eb0a8717fa12723fd6c79/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+208        </activity>
+209        <activity
+209-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:23:9-27:75
+210            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+210-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:24:13-93
+211            android:excludeFromRecents="true"
+211-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:25:13-46
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:26:13-37
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+213-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:27:13-72
+214        <!--
+215            Service handling Google Sign-In user revocation. For apps that do not integrate with
+216            Google Sign-In, this service will never be started.
+217        -->
+218        <service
+218-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:33:9-37:51
+219            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+219-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:34:13-89
+220            android:exported="true"
+220-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:35:13-36
+221            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+221-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:36:13-107
+222            android:visibleToInstantApps="true" />
+222-->[com.google.android.gms:play-services-auth:21.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/1e9c049ad9fda8af2b835cbaaa5c81b2/transformed/play-services-auth-21.2.0/AndroidManifest.xml:37:13-48
+223
+224        <activity
+224-->[com.google.android.gms:play-services-base:18.3.0] /Users/yogesh/.gradle/caches/8.8/transforms/8263bc2f4fe41745749a96e5101abff2/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+225            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+225-->[com.google.android.gms:play-services-base:18.3.0] /Users/yogesh/.gradle/caches/8.8/transforms/8263bc2f4fe41745749a96e5101abff2/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+226            android:exported="false"
+226-->[com.google.android.gms:play-services-base:18.3.0] /Users/yogesh/.gradle/caches/8.8/transforms/8263bc2f4fe41745749a96e5101abff2/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+227            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+227-->[com.google.android.gms:play-services-base:18.3.0] /Users/yogesh/.gradle/caches/8.8/transforms/8263bc2f4fe41745749a96e5101abff2/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+228
+229        <provider
+229-->[androidx.emoji2:emoji2:1.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/73dea638a978c1066caf3080ff901fa5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+230            android:name="androidx.startup.InitializationProvider"
+230-->[androidx.emoji2:emoji2:1.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/73dea638a978c1066caf3080ff901fa5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+231            android:authorities="com.indiabuildmart.anilsheoran.androidx-startup"
+231-->[androidx.emoji2:emoji2:1.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/73dea638a978c1066caf3080ff901fa5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+232            android:exported="false" >
+232-->[androidx.emoji2:emoji2:1.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/73dea638a978c1066caf3080ff901fa5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+233            <meta-data
+233-->[androidx.emoji2:emoji2:1.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/73dea638a978c1066caf3080ff901fa5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+234                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+234-->[androidx.emoji2:emoji2:1.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/73dea638a978c1066caf3080ff901fa5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+235                android:value="androidx.startup" />
+235-->[androidx.emoji2:emoji2:1.2.0] /Users/yogesh/.gradle/caches/8.8/transforms/73dea638a978c1066caf3080ff901fa5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+236            <meta-data
+236-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/yogesh/.gradle/caches/8.8/transforms/6ec34ff7772240e4559711997ae82840/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+237                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+237-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/yogesh/.gradle/caches/8.8/transforms/6ec34ff7772240e4559711997ae82840/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+238                android:value="androidx.startup" />
+238-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/yogesh/.gradle/caches/8.8/transforms/6ec34ff7772240e4559711997ae82840/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+239            <meta-data
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+240                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+241                android:value="androidx.startup" />
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+242        </provider>
+243
+244        <meta-data
+244-->[com.google.android.gms:play-services-basement:18.3.0] /Users/yogesh/.gradle/caches/8.8/transforms/d3743b138879170659e30062348e8543/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+245            android:name="com.google.android.gms.version"
+245-->[com.google.android.gms:play-services-basement:18.3.0] /Users/yogesh/.gradle/caches/8.8/transforms/d3743b138879170659e30062348e8543/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+246            android:value="@integer/google_play_services_version" />
+246-->[com.google.android.gms:play-services-basement:18.3.0] /Users/yogesh/.gradle/caches/8.8/transforms/d3743b138879170659e30062348e8543/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+247
+248        <receiver
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+249            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+250            android:directBootAware="false"
+250-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+251            android:enabled="true"
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+252            android:exported="true"
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+253            android:permission="android.permission.DUMP" >
+253-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+254            <intent-filter>
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+255                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+256            </intent-filter>
+257            <intent-filter>
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+258                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+259            </intent-filter>
+260            <intent-filter>
+260-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+261                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+262            </intent-filter>
+263            <intent-filter>
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+264                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/yogesh/.gradle/caches/8.8/transforms/0f2304ee6cfc2e11e41b1dc6649b17a5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+265            </intent-filter>
+266        </receiver>
+267
+268        <meta-data
+268-->[com.facebook.soloader:soloader:0.11.0] /Users/yogesh/.gradle/caches/8.8/transforms/59fe1eb8a58cc1e1feeae228021a9a58/transformed/soloader-0.11.0/AndroidManifest.xml:12:9-14:37
+269            android:name="com.facebook.soloader.enabled"
+269-->[com.facebook.soloader:soloader:0.11.0] /Users/yogesh/.gradle/caches/8.8/transforms/59fe1eb8a58cc1e1feeae228021a9a58/transformed/soloader-0.11.0/AndroidManifest.xml:13:13-57
+270            android:value="false" />
+270-->[com.facebook.soloader:soloader:0.11.0] /Users/yogesh/.gradle/caches/8.8/transforms/59fe1eb8a58cc1e1feeae228021a9a58/transformed/soloader-0.11.0/AndroidManifest.xml:14:13-34
+271    </application>
+272
+273</manifest>
